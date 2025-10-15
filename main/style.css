@@ -1,0 +1,52 @@
+/* ベース設定 */
+body {
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fafafa;
+  line-height: 1.7;
+}
+
+/* ヘッダー */
+header {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* ヒーロー画像 */
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* コンテンツ */
+.content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.content h2 {
+  color: #4a90e2;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  color: #666;
+  font-size: 0.9rem;
+}
