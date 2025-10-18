@@ -73,3 +73,12 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid #e0c9a8;
 }
+
+/* 画像をコンテンツ幅に合わせて縮小、はみ出さないようにする */
+.content img {
+  max-width: 100%;  /* 親要素の幅を超えない */
+  height: auto;     /* 縦横比を維持 */
+  display: block;   /* 下の余白を抑える */
+  margin: 1rem 0;   /* 上下の余白を少し追加 */
+  border-radius: 8px; /* 任意：角を丸くする */
+}
